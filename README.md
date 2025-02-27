@@ -31,3 +31,6 @@ git checkout
 ### 使用浅拷贝
 不需要存储库的整个历史记录
 `git clone --depth 1 https://github.com/kekingcn/kkFileView.git`
+
+### 增大git缓冲区大小
+`git config --global http.postBuffer 524288000`增大到500MB
