@@ -28,3 +28,6 @@ git push origin main
 git reset HEAD^1 
 git checkout
 ```
+### 使用浅拷贝
+不需要存储库的整个历史记录
+`git clone --depth 1 https://github.com/kekingcn/kkFileView.git`
